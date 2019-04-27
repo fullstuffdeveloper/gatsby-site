@@ -17,6 +17,7 @@ const Footer = () => {
     return (
         <footer className={footerStyles.footer}>
             <p>Created by {data.site.siteMetadata.author}, © 2019</p>
+            <p>Made with &#10084; in India, Chennai Proudly hosted on Netlify </p>
         </footer>
     )
 }

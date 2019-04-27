@@ -1,7 +1,7 @@
 module.exports = {
     siteMetadata: {
-        title: 'Full-Stack Bootcamp',
-        author: 'Andrew Mead'
+        title: '__full_stack_developer__',
+        author: 'Abhishek Jha'
     },
     plugins: [
         'gatsby-plugin-react-helmet',
