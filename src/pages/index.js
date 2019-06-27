@@ -1,6 +1,6 @@
 import React from 'react'
-import profile from '../images/image.jpg'
-import indexStyle from './index.module.scss';
+// import profile from '../images/image.jpg'
+// import indexStyle from './index.module.scss';
 
 
 import Layout from '../components/layout'
