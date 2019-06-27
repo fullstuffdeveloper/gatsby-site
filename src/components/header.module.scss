@@ -8,26 +8,28 @@
     font-size: 3rem;
     text-decoration: none;
 }
-
+// 
 .nav-list {
     display: flex;
     list-style-type: none;
     margin: 0;
+    float: right;
  
 }
 
 .nav-item {
   
-    color: #999999;
-    font-size: .9rem;
+    // color: #999999;
+    font-size: 1rem;
     margin-right: 1.3rem;
     text-decoration: none;
+    font-weight: bold;
 }
 
 .nav-item:hover {
-    color: #666666;
+    color: #FF652F;
 }
 
 .active-nav-item {
-    color: #333333;
+    color: #FF652F;
 }
