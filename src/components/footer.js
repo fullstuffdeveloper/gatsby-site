@@ -15,11 +15,12 @@ const Footer = () => {
     `)
 
     return (
-        <footer className={footerStyles.footer}>
-            <span>
-            <span>Created by {data.site.siteMetadata.author}, © 2019</span>
+        <footer>
+            <div className={footerStyles.footer}>
+            <span className={footerStyles.footerContent}>Created by {data.site.siteMetadata.author}, © 2019</span>
+            <br />
             <span className={footerStyles.footerContent}>Made with &#10084; in India Chennai, Proudly hosted on Netlify </span>
-            </span>
+            </div>
         </footer>
     )
 }
