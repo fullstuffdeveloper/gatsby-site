@@ -23,7 +23,7 @@ const Header = () => {
       </h1> */}
       <nav>
         <ul className={headerStyles.navList}>
-          <li>
+          <li className={headerStyles.nav1}>
             <Link
               className={headerStyles.navItem}
               activeClassName={headerStyles.activeNavItem}
@@ -32,7 +32,7 @@ const Header = () => {
               Home
             </Link>
           </li>
-          <li>
+          <li className={headerStyles.nav2}>
             <Link
               className={headerStyles.navItem}
               activeClassName={headerStyles.activeNavItem}
@@ -41,7 +41,7 @@ const Header = () => {
               Blog
             </Link>
           </li>
-          <li>
+          <li className={headerStyles.nav3}>
             <Link
               className={headerStyles.navItem}
               activeClassName={headerStyles.activeNavItem}
@@ -50,7 +50,7 @@ const Header = () => {
               About
             </Link>
           </li>
-          <li>
+          <li className={headerStyles.nav4}>
             <Link
               className={headerStyles.navItem}
               activeClassName={headerStyles.activeNavItem}

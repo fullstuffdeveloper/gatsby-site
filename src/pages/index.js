@@ -8,6 +8,7 @@ import React from 'react'
 import Profilepic from '../images/profile.jpeg'
 import { Button } from 'reactstrap';
 import { Container, Row, Col } from 'reactstrap';
+import CodingImg from '../images/coding.svg'
 
 
 import Layout from '../components/layout';
@@ -38,6 +39,10 @@ const IndexPage = () => {
              <img src={Profilepic} alt="profile image" className={indexStyles.pimg}/>   
             <h1 className={indexStyles.hello}>Hello.</h1>
             <h2 className={indexStyles.name}>I'm Abhishek</h2>
+            <h2 className={indexStyles.e1}>A Web Dev
+            <img src={CodingImg} className={indexStyles.coding}/>
+           
+            </h2>
            
             </div>
             

@@ -18,10 +18,27 @@
 .hello{
     background-color: red;
     margin-right: 40px;
+    transform: rotate(-15deg);
 }
 .name{
     background-color: rgb(7, 112, 250);
 }
 .colnew{
     width: 100px;
+}
+// experiment
+.e-1{
+    margin: 0;
+    padding: 0;
+    background-color: blue;
+    transform: rotate(-23deg);
+}
+.coding{
+    display: inline;
+    height: 20px;
+    width: 25%;
+    // background-color: #272727;
+    margin: 0;
+    margin-left: -20px;
+    padding-left: 30px;
 }
